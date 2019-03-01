@@ -1,0 +1,10 @@
+{application,some_elixir_play,
+             [{applications,[kernel,stdlib,elixir,logger,mox]},
+              {description,"some_elixir_play"},
+              {modules,['Elixir.Calculator',
+                        'Elixir.Calculators.KostasCalculator',
+                        'Elixir.Calculators.NormalCalculator',
+                        'Elixir.Calculators.TheCalculator','Elixir.Math',
+                        'Elixir.SomeElixirPlay']},
+              {registered,[]},
+              {vsn,"0.1.0"}]}.
